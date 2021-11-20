@@ -33,7 +33,7 @@ class Songlist extends Component {
 // mapStateToProps will always return a state that contains combineReducers
 // Technically we can destructure state but for the sake of clarity/readability we'll keep at is.
 const mapStateToProps = (state) => {
-  console.log(state);
+  // console.log(state);
   return { songs: state.songs };
 };
 
